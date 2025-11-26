@@ -54,7 +54,7 @@ int main() {
     type_check = std::is_same<decltype((obj.b)), const double&>::value;
     d2x_assert(type_check); type_check = false; // dont change this line
 
-    D2X_WAIT
+
 
     return 0;
 }

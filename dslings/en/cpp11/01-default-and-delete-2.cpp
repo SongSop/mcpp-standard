@@ -24,7 +24,7 @@ void func(int x) {
 }
 
 // Explicitly delete float parameter overload
-void func(float) = delete;
+// void func(float) = delete;
 
 int main() {
 
