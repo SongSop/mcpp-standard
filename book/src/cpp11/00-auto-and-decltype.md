@@ -139,7 +139,7 @@ int main() {
 
 ### decltype(obj) 和 decltype( (obj) )的区别
 
-- 一般`decltype(obj)`获取的时其声明类型
+- 一般`decltype(obj)`获取的是其声明类型
 - 而`decltype( (obj) )` 获取的是 `(obj)` 这个表达式的类型(左值表达式)
 
 ```cpp
